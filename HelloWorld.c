@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World Test!\n");
+  printf("Hello World!\n");
   return 0; // indicates successful program execution
 }
