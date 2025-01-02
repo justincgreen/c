@@ -8,4 +8,9 @@ int main(void) {
 
   int length = strlen(word);  
   printf("String length is %i\n", length);
+
+  char original[] = "Hello World!";
+  char destination[20]; // make sure this array is big enough for original
+  strcpy(destination, original);
+  printf("Copied string: %s\n", destination);
 }
