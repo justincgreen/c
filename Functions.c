@@ -16,9 +16,14 @@ void calculateSum(int x, int y) {
   printf("The sum is: %i\n", sum);
 }
 
+int add5(int x) {
+  return 5 + x;
+}
+
 int main(void) {
   myFunction();
   greeting("Justin");
   foo("Justin", 36);
   calculateSum(1,2);
+  printf("Result is %i\n", add5(5));
 }
