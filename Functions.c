@@ -1,4 +1,5 @@
 #include <stdio.h>
+void fooFunc(); // function declartion
 void myFunction() {
   printf("My function works\n");
 }
@@ -27,4 +28,10 @@ int main(void) {
   foo("Justin", 36);
   calculateSum(1,2);
   printf("Result is %i\n", result);
+  fooFunc();
+}
+
+// function definition
+void fooFunc() {
+  printf("This is fooFunc\n");
 }
