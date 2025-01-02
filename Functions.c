@@ -21,9 +21,10 @@ int add5(int x) {
 }
 
 int main(void) {
+  int result = add5(10);
   myFunction();
   greeting("Justin");
   foo("Justin", 36);
   calculateSum(1,2);
-  printf("Result is %i\n", add5(5));
+  printf("Result is %i\n", result);
 }
