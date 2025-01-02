@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-// Define the structure for a linked list node
+// Define the structure for a singly linked list node
 struct Node {
   int data; // data part of the node
   struct Node* next; // Pointer to the next node
